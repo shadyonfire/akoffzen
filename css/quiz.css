@@ -1,0 +1,19 @@
+.options{
+	background-color: white;
+	overflow: ;
+	min-height: 50px;
+	margin: 15px;
+}
+.options:hover{
+	background-color: red;
+}
+
+.analysis{
+	position: fixed;
+	top:0;
+	left:0;
+	background-color: rgba(0,0,0,.9);
+	z-index: 3;
+	height: 100%;
+	width: 100%;
+}

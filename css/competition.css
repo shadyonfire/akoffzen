@@ -1,0 +1,31 @@
+
+.tag {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    background: red;
+    padding:0px 0px 5px 20px;
+  }
+  .tag:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid white;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+  .tag:before {
+    content: "";
+    position: absolute;
+    right: -15px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    /*border-left: 15px solid red;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;*/
+  }
+        

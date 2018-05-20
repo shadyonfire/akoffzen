@@ -1,0 +1,69 @@
+body{
+	background:url("../images/backg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	max-width: 98%;
+
+
+}
+.centered-form{
+    	margin-top: 60px;
+    
+}
+    
+.centered-form .panel{
+    	background: rgba(255, 255, 255, 0.8);
+    	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+    	padding: 40px 20px 40px 20px;
+    	border-radius: 10px;
+}
+.login-form{
+		position: fixed;
+    	background-color:rgba(0,0,0,.7);
+    	height: 100%;
+    	width:100%;
+    	top:0;
+    	left:0;
+    	z-index: 10;
+    	display: none;
+    }
+ .login-form .panel{
+    	background: rgba(255, 255, 255, 0.8);
+    	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+    	padding: 40px 20px 40px 20px;
+    	border-radius: 10px;
+}
+.icon-bar{
+    width: auto;
+    height: 4px;
+    background-color: black;
+    margin:6px 0;
+}
+
+footer{
+    background-color: transparent;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    overflow:hidden;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+footer:hover{
+    height: 30px;
+}
+@media only screen and (max-width: 990px) {
+    .navbar-nav{
+    background-color: white;
+    width:100%;
+}
+}
+
+.carousel-indicators ol li{
+    height:15px;width:15px;
+}
